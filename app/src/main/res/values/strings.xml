@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WCam</string>
+    <string name="rec_timer_initial" translatable="false">REC 00:00</string>
+
+    <string name="notification_channel_name">WCam Camera Service</string>
+    <string name="notification_title">WCam Active</string>
+    <string name="notification_content">Backup camera is running. Tap for fullscreen.</string>
+
+    <string name="btn_lines">Lines</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop_record">Stop</string>
+    <string name="btn_photo">Photo</string>
+    <string name="btn_mirror">Mirror</string>
+    <string name="btn_overlay">Overlay</string>
+    <string name="btn_wifi">Wi-Fi</string>
+    <string name="btn_calibrate">Calibrate</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_wifi_settings">Wi-Fi Settings</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="btn_language_code">EN</string>
+
+    <string name="dialog_language_title">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">English</string>
+
+    <string name="calibration_hint">Drag the corners</string>
+    <string name="cd_fullscreen">Fullscreen</string>
+    <string name="cd_parking_lines">Parking Lines</string>
+    <string name="cd_language">Change Language</string>
+
+    <string name="status_waiting_camera">Waiting for camera (192.168.10.1)</string>
+    <string name="status_waiting_camera_short">Waiting for camera</string>
+    <string name="status_waiting_short">Waiting</string>
+    <string name="status_waiting_ellipsis">Waiting...</string>
+    <string name="status_waiting_wifi">Waiting for Wi-Fi</string>
+    <string name="status_waiting_video_short">Waiting for video</string>
+    <string name="status_ssid_waiting">%1$s • Waiting</string>
+    <string name="status_connect_camera_wifi">Connect to the camera Wi-Fi network</string>
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connecting_camera">Connecting to camera...</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connected_waiting_video">Connected, waiting for video...</string>
+    <string name="status_live_res">Live • %1$dx%2$d</string>
+    <string name="status_stopped">Connection stopped</string>
+    <string name="status_camera_no_response">Camera not responding (%1$s)</string>
+    <string name="status_disconnected_retrying">Connection lost, retrying...</string>
+    <string name="waiting_sub_connected_ssid">Connected Wi-Fi: %1$s • Target: 192.168.10.1</string>
+    <string name="waiting_sub_hint">Video opens automatically after connecting to the camera Wi-Fi network</string>
+
+    <string name="dialog_overlay_permission_title">Overlay Permission Required</string>
+    <string name="dialog_overlay_permission_message">Grant permission to display the camera in a floating window over other apps.</string>
+    <string name="toast_overlay_permission_denied">Overlay permission was not granted</string>
+    <string name="toast_overlay_open_failed">Could not open overlay: %1$s</string>
+
+    <string name="wifi_dialog_title">Camera Wi-Fi Connection</string>
+    <string name="wifi_dialog_current">Current Wi-Fi: %1$s</string>
+    <string name="wifi_dialog_disabled">Wi-Fi is off. Please connect to the camera Wi-Fi network.</string>
+    <string name="wifi_dialog_camera_ip">Camera IP: 192.168.10.1</string>
+    <string name="wifi_dialog_ssid_hint">Camera Wi-Fi Name (SSID)</string>
+    <string name="wifi_dialog_password_hint">Password (optional)</string>
+    <string name="wifi_dialog_btn_connect">Connect in App</string>
+    <string name="wifi_dialog_btn_system_settings">System Wi-Fi Settings</string>
+    <string name="toast_enter_ssid">Please enter SSID</string>
+    <string name="toast_wifi_connecting">Connecting to %1$s...</string>
+    <string name="toast_wifi_connected">Wi-Fi connected (%1$s)</string>
+    <string name="toast_wifi_failed">Wi-Fi connection failed (%1$s)</string>
+
+    <string name="toast_lines_saved">Parking lines saved</string>
+    <string name="toast_photo_needs_stream">Waiting for live video to capture photo</string>
+    <string name="toast_photo_saved">Photo saved: %1$s</string>
+    <string name="toast_photo_gallery_failed">Could not save photo to Gallery</string>
+    <string name="toast_photo_capture_failed">Could not capture photo</string>
+    <string name="toast_record_needs_stream">Live camera video is required to record</string>
+    <string name="toast_record_start_failed">Could not start video recording</string>
+    <string name="toast_record_started">Video recording started</string>
+    <string name="toast_video_saved">Video saved: %1$s</string>
+    <string name="toast_video_gallery_failed">Could not export video to Gallery</string>
+    <string name="toast_video_empty_deleted">Video recording was deleted because it was empty</string>
+
+    <string name="car_title_connecting">WCam • Connecting</string>
+    <string name="car_title_waiting_video">WCam • Waiting for Video</string>
+    <string name="car_title_waiting_camera">WCam • Waiting for Camera</string>
+    <string name="car_detail_with_ssid">Wi-Fi: %1$s\n%2$s</string>
+    <string name="car_detail_connect_wifi">%1$s\nConnect your phone to the camera Wi-Fi network</string>
+    <string name="car_action_connect">Connect</string>
+    <string name="car_action_photo">Photo</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_overlay_window"
+    android:padding="2dp">
+
+    <FrameLayout
+        android:id="@+id/overlayVideoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000">
+
+        <TextureView
+            android:id="@+id/overlayTextureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.wcam.app.ui.ParkingLinesView
+            android:id="@+id/overlayParkingLinesView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/overlayStatusBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_hud_pill"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:text="@string/status_waiting_ellipsis"
+            android:textColor="#FFFFFFFF"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/overlayControlsBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_hud_pill"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="4dp">
+
+            <ImageButton
+                android:id="@+id/btnOverlayFullscreen"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:background="@drawable/bg_hud_btn"
+                android:contentDescription="@string/cd_fullscreen"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_fullscreen" />
+
+            <ImageButton
+                android:id="@+id/btnOverlayLines"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/bg_hud_btn"
+                android:contentDescription="@string/cd_parking_lines"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_lines" />
+
+            <ImageButton
+                android:id="@+id/btnOverlayRecord"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/bg_hud_btn"
+                android:contentDescription="@string/btn_record"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_record" />
+
+            <ImageButton
+                android:id="@+id/btnOverlayClose"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/bg_hud_btn"
+                android:contentDescription="@string/btn_close"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_close" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/overlayResizeHandle"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="bottom|end"
+            android:padding="4dp"
+            android:src="@drawable/ic_resize" />
+    </FrameLayout>
+
+</FrameLayout>

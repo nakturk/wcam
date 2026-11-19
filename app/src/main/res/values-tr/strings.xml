@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel_name">WCam Kamera Servisi</string>
+    <string name="notification_title">WCam Aktif</string>
+    <string name="notification_content">Geri görüş kamerası çalışıyor. Tam ekran için dokunun.</string>
+
+    <string name="btn_lines">Çizgi</string>
+    <string name="btn_record">Kayıt</string>
+    <string name="btn_stop_record">Durdur</string>
+    <string name="btn_photo">Fotoğraf</string>
+    <string name="btn_mirror">Ayna</string>
+    <string name="btn_overlay">Overlay</string>
+    <string name="btn_wifi">Wi-Fi</string>
+    <string name="btn_calibrate">Ayarla</string>
+    <string name="btn_retry">Tekrar Dene</string>
+    <string name="btn_wifi_settings">Wi-Fi Ayarları</string>
+    <string name="btn_reset">Sıfırla</string>
+    <string name="btn_done">Tamam</string>
+    <string name="btn_close">Kapat</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="btn_grant_permission">İzin Ver</string>
+    <string name="btn_language_code">TR</string>
+
+    <string name="dialog_language_title">Dil Seçimi</string>
+    <string name="lang_system">Sistem Dili</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">English</string>
+
+    <string name="calibration_hint">Köşeleri sürükleyin</string>
+    <string name="cd_fullscreen">Tam Ekran</string>
+    <string name="cd_parking_lines">Park Çizgisi</string>
+    <string name="cd_language">Dil Değiştir</string>
+
+    <string name="status_waiting_camera">Kamera bekleniyor (192.168.10.1)</string>
+    <string name="status_waiting_camera_short">Kamera bekleniyor</string>
+    <string name="status_waiting_short">Bekleniyor</string>
+    <string name="status_waiting_ellipsis">Bekleniyor...</string>
+    <string name="status_waiting_wifi">Wi-Fi Bekleniyor</string>
+    <string name="status_waiting_video_short">Görüntü bekleniyor</string>
+    <string name="status_ssid_waiting">%1$s • Bekleniyor</string>
+    <string name="status_connect_camera_wifi">Kamera Wi-Fi ağına bağlanın</string>
+    <string name="status_connecting">Bağlanıyor...</string>
+    <string name="status_connecting_camera">Kameraya bağlanılıyor...</string>
+    <string name="status_connected">Bağlandı</string>
+    <string name="status_connected_waiting_video">Bağlandı, görüntü bekleniyor...</string>
+    <string name="status_live_res">Canlı • %1$dx%2$d</string>
+    <string name="status_stopped">Bağlantı durduruldu</string>
+    <string name="status_camera_no_response">Kamera yanıt vermiyor (%1$s)</string>
+    <string name="status_disconnected_retrying">Bağlantı kesildi, yeniden deneniyor...</string>
+    <string name="waiting_sub_connected_ssid">Bağlı Wi-Fi: %1$s • Hedef: 192.168.10.1</string>
+    <string name="waiting_sub_hint">Kameranın Wi-Fi ağına bağlandıktan sonra görüntü otomatik açılır</string>
+
+    <string name="dialog_overlay_permission_title">Overlay İzni Gerekli</string>
+    <string name="dialog_overlay_permission_message">Kamerayı diğer uygulamaların üzerinde küçük pencerede gösterebilmek için izin verin.</string>
+    <string name="toast_overlay_permission_denied">Overlay izni verilmedi</string>
+    <string name="toast_overlay_open_failed">Overlay açılamadı: %1$s</string>
+
+    <string name="wifi_dialog_title">Kamera Wi-Fi Bağlantısı</string>
+    <string name="wifi_dialog_current">Mevcut Wi-Fi: %1$s</string>
+    <string name="wifi_dialog_disabled">Wi-Fi kapalı. Lütfen kameranın Wi-Fi ağına bağlanın.</string>
+    <string name="wifi_dialog_camera_ip">Kamera IP: 192.168.10.1</string>
+    <string name="wifi_dialog_ssid_hint">Kamera Wi-Fi Adı (SSID)</string>
+    <string name="wifi_dialog_password_hint">Şifre (boş bırakılabilir)</string>
+    <string name="wifi_dialog_btn_connect">Uygulamadan Bağlan</string>
+    <string name="wifi_dialog_btn_system_settings">Sistem Wi-Fi Ayarları</string>
+    <string name="toast_enter_ssid">Lütfen SSID girin</string>
+    <string name="toast_wifi_connecting">%1$s ağına bağlanılıyor...</string>
+    <string name="toast_wifi_connected">Wi-Fi bağlandı (%1$s)</string>
+    <string name="toast_wifi_failed">Wi-Fi bağlantısı başarısız (%1$s)</string>
+
+    <string name="toast_lines_saved">Park çizgileri kaydedildi</string>
+    <string name="toast_photo_needs_stream">Fotoğraf için canlı görüntü bekleniyor</string>
+    <string name="toast_photo_saved">Fotoğraf kaydedildi: %1$s</string>
+    <string name="toast_photo_gallery_failed">Fotoğraf Galeri\'ye kaydedilemedi</string>
+    <string name="toast_photo_capture_failed">Fotoğraf çekilemedi</string>
+    <string name="toast_record_needs_stream">Kayıt için canlı kamera görüntüsü gerekli</string>
+    <string name="toast_record_start_failed">Video kaydı başlatılamadı</string>
+    <string name="toast_record_started">Video kaydı başladı</string>
+    <string name="toast_video_saved">Video kaydedildi: %1$s</string>
+    <string name="toast_video_gallery_failed">Video Galeri\'ye aktarılamadı</string>
+    <string name="toast_video_empty_deleted">Video kaydı boş olduğu için silindi</string>
+
+    <string name="car_title_connecting">WCam • Bağlanıyor</string>
+    <string name="car_title_waiting_video">WCam • Görüntü Bekleniyor</string>
+    <string name="car_title_waiting_camera">WCam • Kamera Bekleniyor</string>
+    <string name="car_detail_with_ssid">Wi-Fi: %1$s\n%2$s</string>
+    <string name="car_detail_connect_wifi">%1$s\nTelefonu kameranın Wi-Fi ağına bağlayın</string>
+    <string name="car_action_connect">Bağlan</string>
+    <string name="car_action_photo">Foto</string>
+</resources>
